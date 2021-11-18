@@ -8,17 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		DAC003CB274607540052B4A9 /* CarfaxTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC003CA274607540052B4A9 /* CarfaxTestApp.swift */; };
-		DAC003CD274607540052B4A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC003CC274607540052B4A9 /* ContentView.swift */; };
-		DAC003CF274607620052B4A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC003CE274607620052B4A9 /* Assets.xcassets */; };
+		DAC003CD274607540052B4A9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC003CC274607540052B4A9 /* HomeView.swift */; };
 		DAC003D2274607620052B4A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC003D1274607620052B4A9 /* Preview Assets.xcassets */; };
+		DADC210A2746175E00453BD1 /* Listings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC21092746175E00453BD1 /* Listings.swift */; };
+		DADC210C274617A000453BD1 /* CarsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC210B274617A000453BD1 /* CarsVM.swift */; };
+		DADC210E2746193900453BD1 /* CarListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC210D2746193900453BD1 /* CarListView.swift */; };
+		DADC21102746194600453BD1 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC210F2746194600453BD1 /* LoadingView.swift */; };
+		DADC21132746195A00453BD1 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC21122746195A00453BD1 /* ErrorView.swift */; };
+		DADC2116274622E900453BD1 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = DADC2115274622E900453BD1 /* Kingfisher */; };
+		DADC211827462F5D00453BD1 /* CarsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC211727462F5C00453BD1 /* CarsModel.swift */; };
+		DADC211B2746379600453BD1 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = DADC211A2746379600453BD1 /* SDWebImageSwiftUI */; };
+		DADC211D2746946E00453BD1 /* CarListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC211C2746946E00453BD1 /* CarListDetailView.swift */; };
+		DADC212127469B1500453BD1 /* CarTopOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC212027469B1500453BD1 /* CarTopOptions.swift */; };
+		DADC212427469F6900453BD1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC212327469F6800453BD1 /* Constants.swift */; };
+		DADC21262746A4F000453BD1 /* CarSpecifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC21252746A4F000453BD1 /* CarSpecifications.swift */; };
+		DADC21282746ACE700453BD1 /* DealerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC21272746ACE600453BD1 /* DealerInfo.swift */; };
+		DADC212A2746B34F00453BD1 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC21292746B34E00453BD1 /* APIError.swift */; };
+		DADC212D2746B75E00453BD1 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC212C2746B75E00453BD1 /* APIService.swift */; };
+		DADC212F2746BDCC00453BD1 /* Dealer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC212E2746BDCC00453BD1 /* Dealer.swift */; };
+		DADC21312746BE0E00453BD1 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC21302746BE0E00453BD1 /* History.swift */; };
+		DADC21342746C30E00453BD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DADC21332746C30D00453BD1 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DAC003C7274607540052B4A9 /* CarfaxTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarfaxTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAC003CA274607540052B4A9 /* CarfaxTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarfaxTestApp.swift; sourceTree = "<group>"; };
-		DAC003CC274607540052B4A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		DAC003CE274607620052B4A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAC003CC274607540052B4A9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		DAC003D1274607620052B4A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DADC21092746175E00453BD1 /* Listings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listings.swift; sourceTree = "<group>"; };
+		DADC210B274617A000453BD1 /* CarsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsVM.swift; sourceTree = "<group>"; };
+		DADC210D2746193900453BD1 /* CarListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListView.swift; sourceTree = "<group>"; };
+		DADC210F2746194600453BD1 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		DADC21122746195A00453BD1 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		DADC211727462F5C00453BD1 /* CarsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsModel.swift; sourceTree = "<group>"; };
+		DADC211C2746946E00453BD1 /* CarListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListDetailView.swift; sourceTree = "<group>"; };
+		DADC212027469B1500453BD1 /* CarTopOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTopOptions.swift; sourceTree = "<group>"; };
+		DADC212327469F6800453BD1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DADC21252746A4F000453BD1 /* CarSpecifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarSpecifications.swift; sourceTree = "<group>"; };
+		DADC21272746ACE600453BD1 /* DealerInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealerInfo.swift; sourceTree = "<group>"; };
+		DADC21292746B34E00453BD1 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		DADC212C2746B75E00453BD1 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		DADC212E2746BDCC00453BD1 /* Dealer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dealer.swift; sourceTree = "<group>"; };
+		DADC21302746BE0E00453BD1 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		DADC21322746C19E00453BD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DADC21332746C30D00453BD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Preview Content/Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DADC211B2746379600453BD1 /* SDWebImageSwiftUI in Frameworks */,
+				DADC2116274622E900453BD1 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,9 +86,15 @@
 		DAC003C9274607540052B4A9 /* CarfaxTest */ = {
 			isa = PBXGroup;
 			children = (
+				DADC21322746C19E00453BD1 /* Info.plist */,
+				DADC212B2746B74B00453BD1 /* Networking */,
+				DADC212227469F5700453BD1 /* Helper */,
+				DADC2106274616E400453BD1 /* Model */,
+				DADC2105274616D700453BD1 /* ViewModel */,
+				DADC2104274616CE00453BD1 /* View */,
 				DAC003CA274607540052B4A9 /* CarfaxTestApp.swift */,
-				DAC003CC274607540052B4A9 /* ContentView.swift */,
-				DAC003CE274607620052B4A9 /* Assets.xcassets */,
+				DAC003CC274607540052B4A9 /* HomeView.swift */,
+				DADC21332746C30D00453BD1 /* Assets.xcassets */,
 				DAC003D0274607620052B4A9 /* Preview Content */,
 			);
 			path = CarfaxTest;
@@ -65,6 +106,56 @@
 				DAC003D1274607620052B4A9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DADC2104274616CE00453BD1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DADC210D2746193900453BD1 /* CarListView.swift */,
+				DADC210F2746194600453BD1 /* LoadingView.swift */,
+				DADC21122746195A00453BD1 /* ErrorView.swift */,
+				DADC211C2746946E00453BD1 /* CarListDetailView.swift */,
+				DADC212027469B1500453BD1 /* CarTopOptions.swift */,
+				DADC21252746A4F000453BD1 /* CarSpecifications.swift */,
+				DADC21272746ACE600453BD1 /* DealerInfo.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DADC2105274616D700453BD1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DADC210B274617A000453BD1 /* CarsVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DADC2106274616E400453BD1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DADC21092746175E00453BD1 /* Listings.swift */,
+				DADC211727462F5C00453BD1 /* CarsModel.swift */,
+				DADC212E2746BDCC00453BD1 /* Dealer.swift */,
+				DADC21302746BE0E00453BD1 /* History.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DADC212227469F5700453BD1 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				DADC212327469F6800453BD1 /* Constants.swift */,
+				DADC21292746B34E00453BD1 /* APIError.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		DADC212B2746B74B00453BD1 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				DADC212C2746B75E00453BD1 /* APIService.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +174,10 @@
 			dependencies = (
 			);
 			name = CarfaxTest;
+			packageProductDependencies = (
+				DADC2115274622E900453BD1 /* Kingfisher */,
+				DADC211A2746379600453BD1 /* SDWebImageSwiftUI */,
+			);
 			productName = CarfaxTest;
 			productReference = DAC003C7274607540052B4A9 /* CarfaxTest.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +206,10 @@
 				Base,
 			);
 			mainGroup = DAC003BE274607530052B4A9;
+			packageReferences = (
+				DADC2114274622E800453BD1 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				DADC21192746379600453BD1 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = DAC003C8274607540052B4A9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,7 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAC003D2274607620052B4A9 /* Preview Assets.xcassets in Resources */,
-				DAC003CF274607620052B4A9 /* Assets.xcassets in Resources */,
+				DADC21342746C30E00453BD1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +236,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAC003CD274607540052B4A9 /* ContentView.swift in Sources */,
+				DADC21312746BE0E00453BD1 /* History.swift in Sources */,
+				DADC212D2746B75E00453BD1 /* APIService.swift in Sources */,
+				DAC003CD274607540052B4A9 /* HomeView.swift in Sources */,
+				DADC21262746A4F000453BD1 /* CarSpecifications.swift in Sources */,
+				DADC210A2746175E00453BD1 /* Listings.swift in Sources */,
+				DADC212F2746BDCC00453BD1 /* Dealer.swift in Sources */,
 				DAC003CB274607540052B4A9 /* CarfaxTestApp.swift in Sources */,
+				DADC210C274617A000453BD1 /* CarsVM.swift in Sources */,
+				DADC211827462F5D00453BD1 /* CarsModel.swift in Sources */,
+				DADC212427469F6900453BD1 /* Constants.swift in Sources */,
+				DADC212127469B1500453BD1 /* CarTopOptions.swift in Sources */,
+				DADC21282746ACE700453BD1 /* DealerInfo.swift in Sources */,
+				DADC21102746194600453BD1 /* LoadingView.swift in Sources */,
+				DADC210E2746193900453BD1 /* CarListView.swift in Sources */,
+				DADC212A2746B34F00453BD1 /* APIError.swift in Sources */,
+				DADC211D2746946E00453BD1 /* CarListDetailView.swift in Sources */,
+				DADC21132746195A00453BD1 /* ErrorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,12 +383,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CarfaxTest/Preview Content\"";
-				DEVELOPMENT_TEAM = 3G24B7PD2R;
+				DEVELOPMENT_TEAM = N455DP39DJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarfaxTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -298,12 +412,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CarfaxTest/Preview Content\"";
-				DEVELOPMENT_TEAM = 3G24B7PD2R;
+				DEVELOPMENT_TEAM = N455DP39DJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarfaxTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -341,6 +455,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DADC2114274622E800453BD1 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		DADC21192746379600453BD1 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DADC2115274622E900453BD1 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DADC2114274622E800453BD1 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		DADC211A2746379600453BD1 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DADC21192746379600453BD1 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DAC003BF274607530052B4A9 /* Project object */;
 }
